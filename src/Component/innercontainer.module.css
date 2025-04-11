@@ -1,0 +1,9 @@
+.innercontainer {
+  flex: 1;
+  padding: 20px; /* Increased padding */
+  margin: 10px;
+  background-color: #fff; /* White background for content areas */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  min-width: 300px; /* Ensure a minimum width for each container */
+}

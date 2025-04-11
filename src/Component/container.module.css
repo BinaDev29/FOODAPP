@@ -1,0 +1,6 @@
+.parentcontainer {
+  display: flex;
+  flex-wrap: wrap; /* Added for better responsiveness */
+  justify-content: space-around; /* Distribute inner containers */
+  padding: 20px;
+}
