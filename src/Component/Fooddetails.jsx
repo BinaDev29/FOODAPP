@@ -74,16 +74,16 @@ export default function Fooddetails({ foodid }) {
           )}{" "}
           {/* Conditional rendering */}
         </div>
-        <span>
+        <span className={styles.recipedetails}>
           <strong>
             Price per serving: ${(food.pricePerServing / 100).toFixed(2)}
           </strong>
         </span>
       </div>
       <div>
-        <h2>Ingredients</h2>
+        <h2 className={styles.ingradient}>Ingredients</h2>
         <Itemlist food={food} isLoading={isLoading} />
-        <h2>Instructions:</h2>
+        <h2 className={styles.instructions}>Instructions:</h2>
         <div className={styles.recipeinstruction}>
           <ol>
             {isLoading ? (

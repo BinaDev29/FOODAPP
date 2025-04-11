@@ -2,7 +2,7 @@
   max-width: 500px;
   margin: 20px auto;
   padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
   border-radius: 8px;
 }
 
@@ -10,6 +10,12 @@
   margin-bottom: 20px;
   padding-bottom: 15px;
   border-bottom: 1px solid #eee;
+}
+.instructions{
+  font-family: Arial, Helvetica, sans-serif
+}
+.ingradient{
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .recipeName {
@@ -47,8 +53,10 @@
 
 .recipeinstruction {
   margin-top: 20px;
-  color: #666;
+  color: #9c9898;
   line-height: 1.6;
+  font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 .recipeinstruction ol {
