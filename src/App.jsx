@@ -21,7 +21,7 @@ function App() {
             <Foodlist foodData={foodData} setFoodid={setFoodid} />
           ) : (
             <p>
-              No recipes found. Start searching to discover delicious meals!
+              No recipes found. Start <strong><em>searching </em></strong>to discover delicious meals!
             </p>
           )}
         </Innercontainer>
@@ -29,7 +29,7 @@ function App() {
           {foodid ? (
             <Fooddetails foodid={foodid} />
           ) : (
-            <p>Click on a recipe to see its mouthwatering details!</p>
+            <p>Click on a-- <strong><em>recipe view </em></strong>  to see its mouthwatering details!</p>
           )}
         </Innercontainer>
       </Container>

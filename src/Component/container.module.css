@@ -2,5 +2,6 @@
   display: flex;
   flex-wrap: wrap; /* Added for better responsiveness */
   justify-content: space-around; /* Distribute inner containers */
-  padding: 20px;
+  padding: 100px;
+  font-family: Arial, Helvetica, sans-serif;
 }
